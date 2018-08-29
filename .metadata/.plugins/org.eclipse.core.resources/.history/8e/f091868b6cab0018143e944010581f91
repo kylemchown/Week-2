@@ -1,0 +1,29 @@
+package battleship;
+
+public class Grid {
+	
+	int[] a = {0,0,0};
+	int[] b = {0,0,0};
+	int[] c = {0,0,0};
+	private int[][] grid = {a,b,c};
+	
+	
+	Grid(){
+/*		int[] a = {0,0,0};
+		int[] b = {0,0,0};
+		int[] c = {0,0,0};
+		int[][]  = {a,b,c};*/
+		}
+
+
+	public int[][] getGrid() {
+		return grid;
+	}
+
+
+	public void setGrid(int[][] grid) {
+		this.grid = grid;
+	}
+	
+	
+	}

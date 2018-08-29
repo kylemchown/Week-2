@@ -1,0 +1,16 @@
+package battleship;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Grid grid = new Grid();
+		for(int[] i : grid.getGrid()) {
+			for(int j : i) {
+				System.out.print(j);
+			}
+			System.out.println();
+		}
+	}
+
+}
