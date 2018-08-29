@@ -13,6 +13,8 @@ public class Runner {
 		grid.addShip(a, 2, 3, false);
 		
 		grid.printGrid();
+		grid.addShip(a, 2, 1, true);
+		grid.printGrid();
 	}
 
 }
